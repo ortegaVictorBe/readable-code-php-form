@@ -1,8 +1,8 @@
-# PHP - Order Form - BeCode
+# PHP - Readable Code
 
 ## Brief :clipboard:
 
-We are working in basic forms and its validation, the order form is built, we will learn a simple validation way.
+We have a messed code, it is hard to mantein and understand.
 
 ---
 
@@ -10,21 +10,17 @@ We are working in basic forms and its validation, the order form is built, we wi
 
 ---
 
-You need to make a form for a webshop, and add validation to the form. The customer can order various sandwiches, and then both the restaurant owner and the customer receive an e-mail with the details of the order.
-
-You will add a counter at the bottom of the page that shows the total amount of money that has been spent on this page for this user. This counter should keep going up even when the user closes his browser.
-
-You can start modifying index.php and form-view.php, they already contain some code to help you on your way.
+I have to apply some rules to convert the messed code in a cclean code. understandable, maintainable.
 
 ---
 
 ## To Do :construction:
 
-- Learn about the form manipulation in PHP
+- Read the docs
 
-- Add validations
+- Modify the code, keeping the functionality
 
-- Test the data entry and data saved handling.
+- Push the results
 
 ---
 
@@ -33,11 +29,9 @@ You can start modifying index.php and form-view.php, they already contain some c
 Building with
 
 - Visual Studio Code
-- Markdown
 - Php
-- Bootstrap
 - Google
-- super globals ph variables
+- Code clean techniques
 - Apache 2.4
 
 ---
@@ -52,7 +46,7 @@ Developed by [Victor Ortega](https://github.com/ortegaVictorBe) for [BeCode](htt
 
 :airplane: [<< Live Version >>][address1]
 
-[address1]: https://crazyweather.netlify.app/
+[address1]: https://becode.io/projects/readable-code-php/
 
 ---
 
