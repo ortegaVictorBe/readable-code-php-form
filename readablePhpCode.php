@@ -1,20 +1,20 @@
 <?php
-function getPizza($pizzaType, $Customer)
+function getPizza($pizzaType, $customer)
 {
-    $Customer = ucfirst($Customer);
-    $Address = getAddress($Customer);
+    $customer = ucfirst($customer);
+    $Address = getAddress($customer);
     $Price = getPrice($pizzaType);
 
     echo 'Creating new order...<br>';
-    echo "A {$pizzaType} pizza should be sent to {$Customer}.<br>";
+    echo "A {$pizzaType} pizza should be sent to {$customer}.<br>";
     echo "The address: {$Address}.<br>";
     echo "The bill is €{$Price}.<br>";
     echo "Order finished.<br><br>";
 }
 
-function getAddress($Customer)
+function getAddress($customer)
 {
-    switch ($Customer) {
+    switch ($customer) {
         case 'Koen':
             return 'Somewhere in Antwerpen';
         case 'Manuele':
@@ -42,10 +42,10 @@ function getPrice($pizzaType)
     }
 }
 
-function main() {
+function goForPizza() {
     getPizza('calzone', 'koen');
     getPizza('marguerita', 'manuele');
     getPizza('golden', 'students');
 };
 
-main();
+goForPizza();
